@@ -55,7 +55,7 @@ CREATE TABLE  languages (
 CREATE TABLE  populations (
     pop_id integer NOT NULL,
     country_code character varying(10),
-    year character varying(4),
+    year integer,
     fertility_rate numeric,
     life_expectancy numeric,
     size numeric
